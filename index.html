@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Honda CBR Website" />
+    <meta name="keywords" content="Honda, CBR, Website" />
+    <meta name="author" content="Md. Rifat Islam" />
+    <title>Honda CBR</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/Honda-Icon.png" type="image/gif" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e422e8ad98.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark pt-4">
+            <div class="container">
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fetured">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">News</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news-letter">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn orange-btn px-4 py-2" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Top Banner Section -->
+        <section class="top-banner container pb-5 mb-5">
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 bg-transparent">
+                        <div class="card-body my-5 pt-5">
+                            <small>
+                                Computer-controlled digital transistorized with electronic advance
+                            </small>
+
+                            <h5 class="card-title display-5 text-white py-2">Honda CBR 300R</h5>
+
+                            <p class="card-text text-justify">2021 CBR300R OVERVIEW - Honda If you've got a soft spot
+                                for sportbike
+                                design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between.
+                            </p>
+
+                            <button class="btn orange-btn px-5 py-2 mt-2" data-bs-toggle="modal"
+                                data-bs-target="#purchaseModal">
+                                Purchase
+                            </button>
+
+                            <!-- Purchase Modal -->
+                            <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">
+                                                Order Details
+                                            </h5>
+
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close">
+                                            </button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" placeholder="Name">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <input type="email" class="form-control" placeholder="example@mail.com">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" placeholder="Contact Number">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <textarea class="form-control" rows="3"
+                                                    placeholder="Address"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button class="w-100 btn orange-btn btn-sm">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 border-0 bg-transparent">
+                        <img src="images/header-bike.png" class="img-fluid card-img-top" alt="bike">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Fetured Bikes Section -->
+        <section class="fetured-bikes container pb-5 mb-5" id="fetured">
+            <h2 class="display-5 text-center">
+                Fetured Bikes 2021
+            </h2>
+
+            <div class="pb-5 text-center">
+                <small class="orange-text">Best bike collection</small>
+                <div class="upper-border"></div>
+            </div>
+
+            <!-- Bikes Container -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <!-- Single Bike -->
+                <div class="col pt-5 mt-5">
+                    <div class="card h-100 border-0">
+                        <img src="images/feature-bike.jpg" class="img-fluid bike-image card-img-top gray-img"
+                            alt="bike">
+                    </div>
+                </div>
+
+                <!-- Single Bike -->
+                <div class="col pt-5 mt-5">
+                    <div class="card h-100 border-0">
+                        <img src="images/feature-bike.jpg" class="img-fluid bike-image card-img-top" alt="bike">
+                    </div>
+                </div>
+
+                <!-- Single Bike -->
+                <div class="col pt-5 mt-5">
+                    <div class="card h-100 border-0">
+                        <img src="images/feature-bike.jpg" class="img-fluid bike-image card-img-top gray-img"
+                            alt="bike">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="latest-news container pb-5 mb-5" id="news">
+            <h2 class="display-5 text-center pb-5">
+                Latest News
+            </h2>
+
+            <!-- News Container -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <!-- Single News -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-3">
+                            <img src="images/bike-1.png" class="img-fluid card-img-top" alt="bike">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text text-justify py-2">XDiavel, the Ducati cruiser that combines the best of
+                                both worlds, is
+                                renewed, still remaining.
+                            </p>
+                            <button class="btn orange-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single News -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-3">
+                            <img src="images/bike-2.png" class="img-fluid card-img-top" alt="bike">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Honda & Scooters</h5>
+                            <p class="card-text text-justify py-2">Honda the Ducati cruiser that combines the best
+                                of
+                                both worlds, is
+                                renewed, still remaining.
+                            </p>
+                            <button class="btn orange-btn-outline">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single News -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="p-3">
+                            <img src="images/bike-3.png" class="img-fluid card-img-top" alt="bike">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">2021 Honda CBR500R</h5>
+                            <p class="card-text text-justify py-2">CBR500R the Ducati cruiser that combines the best
+                                of
+                                both worlds, is
+                                renewed, still remaining.
+                            </p>
+                            <button class="btn orange-btn-outline">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="client container pb-5 mb-5">
+            <h2 class="display-5 text-center pb-5">
+                <span>Happy</span>
+                <span class="orange-text">Clients says</span>
+            </h2>
+
+            <!-- Clients Container -->
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <!-- Single Client -->
+                <div class="col">
+                    <div class="card h-100">
+                        <!-- Client Image -->
+                        <div class="pt-5 pb-3 text-center">
+                            <img src="images/user-1.png" class="image-fluid mx-auto client-img card-img-top"
+                                alt="client">
+                        </div>
+
+                        <div class="card-body px-5">
+                            <!-- Client Comment -->
+                            <p class="card-text text-center fw-lighter">
+                                Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="far fa-star me-1"></i>
+                            </div>
+
+                            <!-- Client Name -->
+                            <div class="text-center pt-2">
+                                <small class="text-info">Regina Miles</small>
+                            </div>
+
+                            <!-- Client Occupation -->
+                            <div class="text-center pt-2">
+                                <small>Banker</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Client -->
+                <div class="col">
+                    <div class="card h-100">
+                        <!-- Client Image -->
+                        <div class="pt-5 pb-3 text-center">
+                            <img src="images/user-2.png" class="image-fluid mx-auto client-img card-img-top"
+                                alt="client">
+                        </div>
+
+                        <div class="card-body px-5">
+                            <!-- Client Comment -->
+                            <p class="card-text text-center fw-lighter">
+                                Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="far fa-star me-1"></i>
+                            </div>
+
+                            <!-- Client Name -->
+                            <div class="text-center pt-2">
+                                <small class="text-info">Regina Miles</small>
+                            </div>
+
+                            <!-- Client Occupation -->
+                            <div class="text-center pt-2">
+                                <small>Banker</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Client -->
+                <div class="col">
+                    <div class="card h-100">
+                        <!-- Client Image -->
+                        <div class="pt-5 pb-3 text-center">
+                            <img src="images/user-3.svg" class="image-fluid mx-auto client-img card-img-top"
+                                alt="client">
+                        </div>
+
+                        <div class="card-body px-5">
+                            <!-- Client Comment -->
+                            <p class="card-text text-center fw-lighter">
+                                Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="far fa-star me-1"></i>
+                            </div>
+
+                            <!-- Client Name -->
+                            <div class="text-center pt-2">
+                                <small class="text-info">Regina Miles</small>
+                            </div>
+
+                            <!-- Client Occupation -->
+                            <div class="text-center pt-2">
+                                <small>Banker</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq container pb-5 mb-5">
+            <h2 class="display-5 text-center pb-5">
+                <span>Frequently Asked</span>
+                <span class="orange-text">Questions</span>
+            </h2>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- FAQ Picture -->
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <img src="images/faq.png" class="img-fluid card-img-top" alt="faq">
+                    </div>
+                </div>
+
+                <!-- FAQ Questions Container -->
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <!-- Single Question -->
+                            <div class="accordion-item mb-3 border-1">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button border-0" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        What are the most important things I should know about riding a bike?
+                                    </button>
+                                </h2>
+
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body text-muted">
+                                        Safety First! Always obey the rules of the road. Obey all traffic
+                                        signals, signs, and laws. Get in the mindset of “driving” your
+                                        bike—not just “riding” your bike. This will help you be a more
+                                        focused and legally compliant bike rider.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Question -->
+                            <div class="accordion-item mb-3 border rounded">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        How can I tell if my helmet is old and I need a new one?
+                                    </button>
+                                </h2>
+
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body text-muted">
+                                        Bear in mind that if the helmet did its job most people would tell you that they
+                                        did not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on most helmets now tend to hide any dents in the foam.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Question -->
+                            <div class="accordion-item mb-3 border rounded">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body text-muted">
+                                        eaving your bike outside for a day or two won't do major damage. You may see
+                                        signs of rust after a week of neglect. After one month in bad conditions, your
+                                        beloved bike parts will start to degrade.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Question -->
+                            <div class="accordion-item mb-3 border rounded">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body text-muted">
+                                        Ride on the right in the same direction as other vehicles. Go with the flow –
+                                        not against it. Obey All Traffic Laws. A bicycle is a vehicle and you're a
+                                        driver.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price List -->
+        <section class="container pb-5 mb-5">
+            <h2 class="display-5 text-center pb-5">
+                <span>Our Price</span>
+                <span class="orange-text">List</span>
+            </h2>
+
+            <!-- Price Table -->
+            <table class="table table-striped table-hover border">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Model</th>
+                        <th scope="col">Speed</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Honda CBR150R</td>
+                        <td>160 Kmph</td>
+                        <td>480,000 BDT</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Honda CRF 150L</td>
+                        <td>145 Kmph</td>
+                        <td>538,000 BDT</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Honda CB Hornet 160R</td>
+                        <td>110 Kmph</td>
+                        <td>189,900 BDT</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Honda CRF 150L</td>
+                        <td>145 Kmph</td>
+                        <td>538,000 BDT</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>Honda CBR150R</td>
+                        <td>160 Kmph</td>
+                        <td>480,000 BDT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter container pb-5 mb-5" id="news-letter">
+            <h2 class="display-5 text-center pb-5">
+                <span>Subscribe Our</span>
+                <span class="orange-text">Newsletter</span>
+            </h2>
+
+            <div class="row">
+                <div class="col-xl-8 col-lg-10 mx-auto">
+                    <div class="card p-4">
+                        <h2 class="font-weight-bold text-white">Stay tuned</h2>
+                        <small class="mb-5 silver-text">Subscribe to our newsletter and never miss our
+                            latest news, designs, and product updates.</small>
+
+                        <div class="form-group bg-white border rounded px-2 py-2 mb-2">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" name="email"
+                                        class="form-control pl-3 shadow-none bg-transparent border-0"
+                                        placeholder="Enter your email address">
+                                </div>
+
+                                <div class="col-auto mx-auto">
+                                    <button type="submit" class="btn orange-btn" data-bs-toggle="modal"
+                                        data-bs-target="#newsletterModal">
+                                        <i class="far fa-paper-plane me-1"></i>
+                                        <span>Get notified</span>
+                                    </button>
+
+                                    <!-- Newsletter Modal -->
+                                    <div class="modal fade" id="newsletterModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">
+                                                        Newsletter
+                                                    </h5>
+
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <h4 class="orange-text">
+                                                        Thank you for subscribe
+                                                    </h4>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button class="w-100 btn orange-btn btn-sm"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <small class="mb-4 silver-text">No spam, notifications only about new products, updates
+                            and freebies.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="d-flex flex-column flex-sm-column flex-md-row justify-content-around">
+            <!-- Nav Section -->
+            <section class="py-5">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Download Now</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">License</a>
+                    </li>
+                </ul>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Features</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Pricing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Careers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Help</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-muted" href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+
+                <div class="pt-3">
+                    <small class="text-muted ps-3">© 2020 bike. All rights reserved</small>
+                </div>
+            </section>
+
+            <!-- Download Button Section -->
+            <section class="py-5 download-btn-section">
+                <h6 class="text-muted">Get the App</h6>
+
+                <div class="my-3">
+                    <a href="https://www.apple.com/shop" target="_blank">
+                        <img src="images/apple-button.svg" alt="apple button">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://play.google.com/store/apps" target="_blank">
+                        <img src="images/playstore-button.svg" alt="playstore button">
+                    </a>
+                </div>
+            </section>
+        </section>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
